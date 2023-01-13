@@ -1,18 +1,20 @@
 package service;
 
-import seminars.seminar5.task1.model.Student;
-import seminars.seminar5.task1.util.DataReader;
-import seminars.seminar5.task1.util.DataWriter;
+import model.StudentUser;
+import util.DataReader;
+import util.DataWriter;
+
+
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class StudentService implements DataService<Student> {
+public class StudentUserService implements DataService<StudentUser> {
 
-    private List<Student> students = new ArrayList<>();
+    private List<StudentUser> students = new ArrayList<>();
 
     @Override
-    public void addUser(Student student) {
+    public void addUser(StudentUser student) {
         students.add(student);
     }
 

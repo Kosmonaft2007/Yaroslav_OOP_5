@@ -1,7 +1,8 @@
 package util;
 
-import seminars.seminar5.task1.model.User;
+import model.User;
 
+import java.awt.desktop.UserSessionEvent;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
